@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud_bottomsheet"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="8dp"
+        android:background="@drawable/seprator"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Options"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/interested"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Interested" />
+    <TextView
+        android:id="@+id/report"
+        android:backgroundTint="@color/white"
+        android:textColor="#E14949"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report..."
+        android:layout_marginBottom="100dp"/>
+</LinearLayout>

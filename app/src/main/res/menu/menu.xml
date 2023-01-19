@@ -6,6 +6,15 @@
    <item
        android:id="@+id/reel"
        android:icon="@drawable/reel_icon"/>
+
+    <item
+        android:id="@+id/explore"
+        android:icon="@drawable/explorer"/>
+
+    <item
+        android:id="@+id/calender"
+        android:icon="@drawable/calender"/>
+
     <item
         android:id="@+id/account"
         android:icon="@drawable/person_icon"/>
